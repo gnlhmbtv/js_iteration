@@ -43,8 +43,11 @@ let arr = [1,2,3,5,9,5,6,8];
 
 
 //*********** every ***********
+let condition=false;
 for (let index = 0; index < arr.length; index++) {
-    if (!arr[index]>3) {
-        console.log("false");
+    const element = array[index];
+    if (element>2) {
+        condition=true;
     }
 }
+console.log(condition);
